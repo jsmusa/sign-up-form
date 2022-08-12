@@ -8,10 +8,11 @@ body {
   overflow: auto;
   justify-content: center;
   background-color: black;
+  font-size: 18px;
 }
 
 #side-bar{
-  width: 30%;
+  width: min(35%, 600px);
   background-image: url('./images/kentaro-toma-oUKmEpt6tx0-unsplash.jpg');
   background-size: 100% 100%;
 }
@@ -19,29 +20,40 @@ body {
 #content {
   padding: 40px;
   font-family: 'Silkscreen', sans-serif, cursive;
-  width: 55%;
+  width: min(55%, 1000px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
-  background-color: aliceblue;
+  background-color: #F6F9FD;
+  overflow-y: auto;
 }
 
-.text{
+#text-content{
+  height: auto;
   padding:0 0 15px;
-  width: max(40vw, 60%);
+  width: 50vw;
 }
 
-.form-container {
+#form {
   background-color: rgb(255, 255, 255);
   margin: 0 -40px;
-  padding: 20px;
-  box-shadow: 0px 3px 2px #797B83;
+  padding: 20px 40px;
+  box-shadow: 0px 3px 2px #818791;
+  color:#46474b;
+}
+
+.form-input {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 30px 50px;
+  padding-bottom: 20px;
 }
 
 .input {
   display: flex;
   flex-direction: column;
+  width: max(35%, 225px);
 }
 
 .label {
@@ -51,8 +63,12 @@ body {
 #button {
   width: fit-content;
   padding: 0.5em 3em;
-  background-color: #5A7AE6;
+  background-color: #475A9B;
   color: #FFFFFF;
   border-radius: 5px;
   font-family: inherit
+}
+
+.credits {
+  font-size: 14px;
 }
