@@ -56,6 +56,10 @@ body {
   width: max(35%, 225px);
 }
 
+.input input:focus {
+  border: 3px solid #A1C7FF;
+}
+
 .label {
   width: fit-content;
 }
