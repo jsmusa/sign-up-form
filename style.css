@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  height: 100vh;
+  flex: auto;
+  box-sizing: border-box;
+  overflow: auto;
+  justify-content: center;
+}
+
+#side-bar{
+  width: 35%;
+}
+
+#content {
+  border: 1px solid black;
+  padding: 40px;
+  font-family: 'Silkscreen', sans-serif, cursive;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.text {
+  padding:0 0 15px;
+  width: max(40vw, 60%);
+}
