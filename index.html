@@ -28,35 +28,35 @@
         </div>
         <div>You <strong>know</strong> you want to.</div>
       </div>
-      <div class='form-container'>
-        <form action='#'>
-          <div>Let's do this!</div>
+      <form id='form' action='#'>
+        <div>Let's do this!</div>
+        <div class='form-input'>
           <div class='input'>
-            <label for='first-name'>FIRST NAME</label>
+            <label for='first-name' class='label'>FIRST NAME</label>
             <input type='text' id='first-name' name='first_name'>
           </div>
-
           <div class='input'>
-            <label for='last-name'>LAST NAME</label>
+            <label for='last-name' class='label'>LAST NAME</label>
             <input type='text' id='last-name' name='last_name'>
           </div>
-
           <div class='input'>
-            <label for='email'>EMAIL</label>
+            <label for='email' class='label'>EMAIL</label>
             <input type='email' id='email' name='email'>
           </div>
-
           <div class='input'>
-            <label for='pass'>PASSWORD</label>
+            <label for='phone' class='label'>PHONE NUMBER</label>
+            <input type='text' id='phone' name='phone_number' minlength='8' maxlength='12' pattern='[0-9]'>
+          </div>
+          <div class='input'>
+            <label for='pass' class='label'>PASSWORD</label>
             <input type='password' id='pass' name='password'>
           </div>
-
           <div class='input'>
-            <label for='confirm'>CONFIRM PASSWORD</label>
+            <label for='confirm' class='label'>CONFIRM PASSWORD</label>
             <input type='password' id='confirm' name='password_confirm'>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
       <button type='submit' id='button'>Create Account</button>
       <div>Already have an account? <a href='#'>Log in</a></div>
     </div>
