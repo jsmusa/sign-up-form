@@ -9,6 +9,8 @@ body {
 
 #side-bar{
   width: 35%;
+  background-image: url('./images/kentaro-toma-oUKmEpt6tx0-unsplash.jpg');
+  background-size: 100% 100%;
 }
 
 #content {
@@ -22,7 +24,7 @@ body {
   gap: 30px;
 }
 
-.text {
+.text, .form-container {
   padding:0 0 15px;
   width: max(40vw, 60%);
 }
