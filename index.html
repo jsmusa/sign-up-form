@@ -7,16 +7,16 @@
     <title>Sign-up Form</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100&family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Silkscreen&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='./style.css'>
     <script src='./script.js' defer></script>
   </head>
 
   <body>
     <div id='side-bar'>
-      <div>PLACEHOLDER</div>
+      <div class='logo'>PLACEHOLDER</div>
       <div class='credits'>
-        Photo by <a href='https://unsplash.com/@thirdcultureken'>Kentaro Toma</a> on <a href='https://unsplash.com/'>Unsplash</a>
+        <div>Photo by <a href='https://unsplash.com/@thirdcultureken' class='link'>Kentaro Toma</a> on <a href='https://unsplash.com/' class='link'>Unsplash</a></div>
       </div>
     </div>
     <div id='content'>
@@ -57,8 +57,10 @@
           </div>
         </div>
       </form>
-      <button type='submit' id='button'>Create Account</button>
-      <div>Already have an account? <a href='#'>Log in</a></div>
+      <div class='bottom-container'>
+        <button type='submit' id='button'>Create Account</button>
+        <div>Already have an account? <a href='#'>Log in</a></div>
+      </div>
     </div>
   </body>
 </html>
