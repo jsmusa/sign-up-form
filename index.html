@@ -33,11 +33,11 @@
         <div class='form-input'>
           <div class='input'>
             <label for='first-name' class='label'>FIRST NAME</label>
-            <input type='text' id='first-name' name='first_name' height='auto'>
+            <input type='text' id='first-name' name='first_name' height='auto' pattern='[A-Za-z]+'>
           </div>
           <div class='input'>
             <label for='last-name' class='label'>LAST NAME</label>
-            <input type='text' id='last-name' name='last_name'>
+            <input type='text' id='last-name' name='last_name' pattern='[a-ZA-Z]+'>
           </div>
           <div class='input'>
             <label for='email' class='label'>EMAIL</label>
@@ -49,7 +49,7 @@
           </div>
           <div class='input'>
             <label for='pass' class='label'>PASSWORD</label>
-            <input type='password' id='pass' name='password' class='error'>
+            <input type='password' id='pass' name='password' class='error' minlength='8'>
           </div>
           <div class='input'>
             <label for='confirm' class='label'>CONFIRM PASSWORD</label>
